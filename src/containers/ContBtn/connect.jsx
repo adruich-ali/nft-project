@@ -78,6 +78,7 @@ margin-right: 24px;
 `;
 
 const NavBtnLink = styled.a`
+
 border-radius: 4px;
 background: transparent ;
 padding: 10px 22px;
@@ -91,5 +92,10 @@ text-decoration: none;
     transition: all 0.2s ease-in-out;
     background:#A21112;
     color: #fff;
+}
+
+@media screen and (max-width: 768px){
+	padding: 10px 10px;
+	font-size: .8rem;
 }
 `;
