@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+:root {
+  --main-bg-color: rgb(255, 255, 255);
+  --background-color: #a21112;
+  --black-color: #1f1c1c;
+}
+body {
+  background: linear-gradient(
+    133deg,
+    rgba(15, 2, 2, 1) 21%,
+    #220202 70%,
+    #330606 92%
+  );
+}
